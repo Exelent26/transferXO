@@ -1,4 +1,4 @@
 package main;
 
-public record Coordinates() {
+public record Coordinates(int row, int column) {
 }
